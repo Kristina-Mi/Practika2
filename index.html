@@ -1,0 +1,1475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Loom</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="my_style.css">
+</head>
+<body class="mx-lg-5 mx-md-3 mx-2">
+    
+    <nav class="navbar sticky-top navbar-expand-lg brdr-btm py-4 bg-custom r-mono">
+        <div class="container-fluid justify-content-between">
+
+          <a class="nav-link d-block d-lg-none" href="#">
+            <img src="images/Logo.png" alt="logo" class="img-fluid">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2">
+              <li class="nav-item border border-custom-1 border-2 rounded-3 px-2 py-1 btn-hover">
+                <a class="nav-link active text-white-50 hov" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item border border-custom-1 border-2 rounded-3 px-2 py-1 btn-hover">
+                <a class="nav-link text-white-50 hov" href="#products">Products</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-none d-lg-block">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img src="images/Logo.png" alt="logo" class="img-fluid">
+                </a>
+              </li>
+            </ul>
+
+            <div>
+              <button type="button" class="btn btn-custom-grey">
+                <a href="index-4.html">
+                  <img src="images/user.png" alt="user" class="img-fluid py-1">
+                </a>
+              </button>
+              <button type="button" class="btn btn-custom-sand py-2 text-black fw-medium">
+                <a href="index-2.html">Contact</a>
+              </button>
+            </div>
+
+            
+          </div>
+        </div>
+    </nav>
+
+    <div class="banner d-none d-lg-block">
+      <img src="images/woman.png" alt="woman" class="img-fluid pt-5">
+      <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center justify-content-between gap-2 py-3 py-md-1 py-lg-2 py-xl-3 px-3 px-md-2 px-xl-3 rounded-3 banner-button">
+        <p style="margin-bottom: 0 !important;">Shop Now</p>
+        <img src="images/arrow.png" alt="arrow" class="img-fluid">
+      </button>
+    </div>
+
+    <div class="d-md-block d-none d-lg-none banner">
+      <img src="images/woman-md.png" alt="woman" class="img-fluid pt-5">
+      <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center justify-content-between mx-auto gap-2 py-1 py-md-2 py-lg-2 py-xl-3 px-1 px-md-2 px-xl-3 rounded-3 mt-3 banner-button">
+        <p style="margin-bottom: 0 !important;">Shop Now</p>
+        <img src="images/arrow.png" alt="arrow" class="img-fluid">
+      </button>
+    </div>
+
+    <div class="d-block d-md-none banner">
+      <img src="images/woman-sm.png" alt="woman" class="img-fluid pt-5 wom-sm">
+      <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between mx-auto gap-2 py-2 px-3 rounded-3 mt-3 banner-button">
+        <p style="margin-bottom: 0 !important;">Shop Now</p>
+        <img src="images/arrow.png" alt="arrow" class="img-fluid">
+      </button>
+    </div>
+
+    
+
+    <!--<div class="container text-center mt-5 px-0">
+      <div class="row text-white">
+        <div class="col-sm">
+          <div class="d-flex flex-column justify-content-start text-start border-custom py-5 px-3 px-md-4 px-lg-5 rounded-3">
+            <div class="d-flex justify-content-start gap-1 gap-md-1 gap-lg-3 r-mono gr-70">
+              <p class="border-custom py-2 px-sm-3 px-2 rounded-3 hov btn-hover fs-6">All</p>
+              <p class="border-custom py-2 px-sm-3 px-2 rounded-3 hov btn-hover fs-6">Mens</p>
+              <p class="border-custom py-2 px-sm-3 px-2 rounded-3 hov btn-hover fs-6">Womens</p>
+              <p class="border-custom py-2 px-sm-3 px-2 rounded-3 hov btn-hover fs-6">Kids</p>
+            </div>
+            <p class="fs-2 fw-medium">ELEVATE YOUR STYLE WHITH STYLELOOM</p>
+            <p style="color: #676665;" class="mar-0 fs-6">Explore a world of fashion at StyleLoom, where trends meet affordability. Immerse yourself in the latest styles and seize exclusive promotions.</p>
+          </div>
+        </div>
+
+        <div class="col-sm ps-md-0">
+          <div class="row row-cols-2 text-start d-flex align-self-stretch">
+            <div class="col border-custom align-self-stretch px-4 px-xl-5 px-lg-4 py-4">
+              <p class="fs-1 mar-0">1,500 +</p>
+              <p class="mar-0 gr-50 fs-6">Fashion Products</p>
+            </div>
+            <div class="col border-custom align-self-stretch px-4 px-xl-5 px-lg-4 py-4">
+              <p class="fs-1 mar-0">50 +</p>
+              <p class="mar-0 gr-50 fs-6">New arrivals every month.</p>
+            </div>
+            <div class="col border-custom align-self-stretch px-4 px-xl-5 px-lg-4 py-4">
+              <p class="fs-1 mar-0">30%</p>
+              <p class="mar-0 gr-50 fs-6">OFF on select items.</p>
+            </div>
+            <div class="col border-custom align-self-stretch px-4 px-xl-5 px-lg-4 py-4" style="border-bottom-right-radius: 10px;">
+              <p class="fs-1 mar-0">95%</p>
+              <p class="mar-0 gr-50 fs-6">Customer Satisfaction Rate</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>!-->
+
+
+    <div class="container text-center mt-5 px-xl-0">
+      <div class="row text-white">
+        <div class="col-sm-6 d-flex flex-column justify-content-start text-start border-custom py-5 px-3 px-md-4 px-lg-5 rounded-start">
+          <div class="d-flex justify-content-start gap-1 gap-md-1 gap-lg-3 r-mono gr-70">
+            <p class="border-custom py-2 px-sm-3 px-2 rounded-3 hov btn-hover fs-6">All</p>
+            <p class="border-custom py-2 px-sm-3 px-2 rounded-3 hov btn-hover fs-6">Mens</p>
+            <p class="border-custom py-2 px-sm-3 px-2 rounded-3 hov btn-hover fs-6">Womens</p>
+            <p class="border-custom py-2 px-sm-3 px-2 rounded-3 hov btn-hover fs-6">Kids</p>
+          </div>
+          <p class="fs-2 fw-medium">ELEVATE YOUR STYLE WHITH STYLELOOM</p>
+          <p style="color: #676665;" class="mar-0 fs-6">Explore a world of fashion at StyleLoom, where trends meet affordability. Immerse yourself in the latest styles and seize exclusive promotions.</p>
+        </div>
+
+        <div class="col-sm-3 d-flex flex-column border-custom justify-content-around px-4 px-xl-5 px-lg-4 py-4 gap-5">
+          <div>
+            <p class="fs-1 mar-0">1,500 +</p>
+            <p class="mar-0 gr-50 fs-6">Fashion Products</p>
+          </div>
+          <div>
+            <p class="fs-1 mar-0">30%</p>
+            <p class="mar-0 gr-50 fs-6">OFF on select items.</p>
+          </div>
+        </div>
+        <div class="col-sm-3 d-flex flex-column border-custom justify-content-around px-4 px-xl-5 px-lg-4 py-4 gap-5 rounded-end">
+          <div>
+            <p class="fs-1 mar-0">50 +</p>
+            <p class="mar-0 gr-50 fs-6">New arrivals every month.</p>
+          </div>
+          <div>
+            <p class="fs-1 mar-0">95%</p>
+            <p class="mar-0 gr-50 fs-6">Customer Satisfaction Rate</p>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="border-custom mt-5 rounded-top-3 py-4 px-3 px-md-4 px-lg-5">
+      <p class="text-white fs-2">CRAFTING TRENDS, INSPIRING CONFIDENCE</p>
+      <p class="mar-0 gr-50 fs-6">Explore a world of fashion at StyleLoom, where trends meet affordability.</p>
+    </div>
+
+
+    <div class="container text-center px-xl-0 d-none d-sm-block">
+      <div class="row text-white">
+        <div class="col-sm d-flex flex-column text-start border-custom py-4 px-4 px-md-4 px-lg-5">
+          <img src="images/Icon Container.png" alt="star" class="mb-4">
+          <p class="fs-5">Passionate Craftsmanship</p>
+          <p class="gr-50 mar-0 fs-6">Every garment at StyleLoom is crafted with passion, reflecting our commitment to quality and innovation.</p>
+        </div>
+        
+        <div class="col-sm d-flex flex-column text-start border-custom py-4 px-4 px-md-4 px-lg-5">
+          <img src="images/Icon Container 2.png" alt="star" class="mb-4">
+          <p class="fs-5">Fashion Forward</p>
+          <p class="gr-50 mar-0 fs-6">We're more than a brand; we're trendsetters, curating styles that empower and inspire confidence.</p>
+        </div>
+      
+        <div class="col-sm d-flex flex-column text-start border-custom py-4 px-4 px-md-4 px-lg-5">
+          <img src="images/Icon Container 3.png" alt="star" class="mb-4">
+          <p class="fs-5">Customer-Centric Approach</p>
+          <p class="gr-50 mar-0 fs-6">At StyleLoom, our customers are at the heart of everything we do. Your satisfaction is our measure of success.</p>
+        </div>
+      </div>
+
+
+      <div class="row text-white">
+        <div class="col-sm d-flex flex-column text-start border-custom py-4 px-4 px-md-4 px-lg-5" style="border-bottom-left-radius: 10px;">
+          <img src="images/Icon Container 4.png" alt="star" class="mb-4">
+          <p class="fs-5">Global Inspiration</p>
+          <p class="gr-50 mar-0 fs-6">Influenced by global trends, we bring you a diverse and dynamic collection, embodying the spirit of fashion from around the world.</p>
+        </div>
+      
+        <div class="col-sm d-flex flex-column text-start border-custom py-4 px-4 px-md-4 px-lg-5">
+          <img src="images/Icon Container 5.png" alt="star" class="mb-4">
+          <p class="fs-5">Empowering Your Style</p>
+          <p class="gr-50 mar-0 fs-6">Beyond clothing, StyleLoom is a lifestyle. Join us on a journey of self-expression and empowerment through fashion.</p>
+        </div>
+      
+        <div class="col-sm d-flex flex-column text-start border-custom py-4 px-4 px-md-4 px-lg-5" style="border-bottom-right-radius: 10px;">
+          <img src="images/Icon Container 6.png" alt="star" class="mb-4">
+          <p class="fs-5">Sustainable Practices</p>
+          <p class="gr-50 mar-0 fs-6">StyleLoom is committed to sustainability, integrating eco-friendly practices into our production process.</p>
+        </div>
+      
+      </div>
+    </div>
+
+
+
+    <div id="carouselExample" class="carousel slide d-block d-sm-none">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-flex flex-column text-start border-custom py-4 px-4 px-md-4 px-lg-5 text-white rounded-bottom-3">
+          <img src="images/Icon Container.png" alt="star" class="mb-4">
+          <p class="fs-5">Passionate Craftsmanship</p>
+          <p class="gr-50 mar-0 fs-6">Every garment at StyleLoom is crafted with passion, reflecting our commitment to quality and innovation.</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex flex-column text-start border-custom py-4 px-4 px-md-4 px-lg-5 text-white rounded-bottom-3">
+            <img src="images/Icon Container 2.png" alt="star" class="mb-4">
+            <p class="fs-5">Fashion Forward</p>
+            <p class="gr-50 mar-0 fs-6">We're more than a brand; we're trendsetters, curating styles that empower and inspire confidence.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex flex-column text-start border-custom py-4 px-4 px-md-4 px-lg-5 text-white rounded-bottom-3">
+            <img src="images/Icon Container 3.png" alt="star" class="mb-4">
+            <p class="fs-5">Customer-Centric Approach</p>
+            <p class="gr-50 mar-0 fs-6">At StyleLoom, our customers are at the heart of everything we do. Your satisfaction is our measure of success.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex flex-column text-start border-custom py-4 px-4 px-md-4 px-lg-5 text-white rounded-bottom-3">
+            <img src="images/Icon Container 4.png" alt="star" class="mb-4">
+            <p class="fs-5">Global Inspiration</p>
+            <p class="gr-50 mar-0 fs-6">Influenced by global trends, we bring you a diverse and dynamic collection, embodying the spirit of fashion from around the world.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex flex-column text-start border-custom py-4 px-4 px-md-4 px-lg-5 text-white rounded-bottom-3">
+            <img src="images/Icon Container 5.png" alt="star" class="mb-4">
+            <p class="fs-5">Empowering Your Style</p>
+            <p class="gr-50 mar-0 fs-6">Beyond clothing, StyleLoom is a lifestyle. Join us on a journey of self-expression and empowerment through fashion.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex flex-column text-start border-custom py-4 px-4 px-md-4 px-lg-5 text-white rounded-bottom-3">
+            <img src="images/Icon Container 6.png" alt="star" class="mb-4">
+            <p class="fs-5">Sustainable Practices</p>
+            <p class="gr-50 mar-0 fs-6">StyleLoom is committed to sustainability, integrating eco-friendly practices into our production process.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="d-flex justify-content-center mt-4">
+        <button class="carousel-control-prev pe-4" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next ps-4" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+
+    <div class="d-flex justify-content-between border-custom mt-5 rounded-top-3 align-items-center">
+      <div class="py-4 py-lg-0 px-3 px-md-4 px-lg-5">
+        <p class="text-white fs-2">NAVIGATING THE STYLELOOM FASHION JOURNEY.</p>
+        <p class="mar-0 gr-50 fs-6">At StyleLoom, we've designed a straightforward shopping experience to make fashion accessible.</p>
+      </div>
+      <img src="images/Clip path group.png" alt="rays" class="img-fluid d-none d-sm-block">
+    </div>
+
+    <div class="container px-xl-0">
+      <div class="row text-white">
+        
+        <div class="col-sm text-start border-custom py-5 py-md-4 py-lg-5 px-4 px-md-3 px-lg-4" style="border-bottom-left-radius: 10px;">
+          <p class="r-mono gr-50 fs-5">Step 01</p>
+          <p class="fs-4">Discover Trends</p>
+          <p class="fs-6 gr-50 mar-0">Explore our curated collection of over 1000 styles, spanning global fashion trends.</p>
+        </div>  
+
+        <div class="col-sm text-start border-custom py-5 py-md-4 py-lg-5 px-4 px-md-3 px-lg-4">
+          <p class="r-mono gr-50 fs-5">Step 02</p>
+          <p class="fs-4">Effortless Navigation</p>
+          <p class="fs-6 gr-50 mar-0">Intuitive filters and categories help you find the perfect pieces tailored to your style.</p>
+        </div>
+      
+        <div class="col-sm text-start border-custom py-5 py-md-4 py-lg-5 px-4 px-md-3 px-lg-4">
+          <p class="r-mono gr-50 fs-5">Step 03</p>
+          <p class="fs-4">Secure Checkout</p>
+          <p class="fs-6 gr-50 mar-0">Multiple payment options and encrypted transactions ensure a safe and hassle-free purchase.</p>
+        </div>
+
+        <div class="col-sm text-start border-custom py-5 py-md-4 py-lg-5 px-4 px-md-3 px-lg-4" style="border-bottom-right-radius: 10px;">
+          <p class="r-mono gr-50 fs-5">Step 04</p>
+          <p class="fs-4">Unbox Happiness</p>
+          <p class="fs-6 gr-50 mar-0">Unbox a fashion-forward experience delivered right to your door, ready to elevate your style.</p>
+        </div>
+      
+      </div>
+    </div>
+
+    <div id="products" class="d-flex justify-content-between border-custom mt-5 rounded-top-3 align-items-center">
+      <div class="py-4 py-lg-0 px-3 px-md-4 px-lg-5">
+        <p class="text-white fs-2">ELEVATE YOUR STYLE WITH OUR LATEST COLLECTION</p>
+        <p class="gr-50 fs-6">At StyleLoom, we've designed a straightforward shopping experience to make fashion accessible.</p>
+        <div class="d-flex justify-content-start gap-1 gap-md-1 gap-lg-3 r-mono">
+          <ul class="nav gap-1 gap-md-1 gap-lg-3 mb-3 gr-70" id="pills-tab" role="tablist">
+            <li class="nav-item border-custom-s py-2 px-sm-3 px-2 rounded-3 btn-hover fs-6" role="presentation">
+              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+            </li>
+            <li class="nav-item border-custom-s py-2 px-sm-3 px-2 rounded-3 btn-hover fs-6" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Mens</button>
+            </li>
+            <li class="nav-item border-custom-s py-2 px-sm-3 px-2 rounded-3 btn-hover fs-6" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Womens</button>
+            </li>
+            <li class="nav-item border-custom-s py-2 px-sm-3 px-2 rounded-3 btn-hover fs-6" role="presentation">
+              <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Kids</button>
+            </li>
+          </ul>
+        </div>
+        <!--<div class="d-flex justify-content-start gap-1 gap-md-1 gap-lg-3 r-mono" style="color: #B3B3B2;">
+          <p class="border-custom py-2 px-sm-3 px-2 rounded-3 hov btn-hover">All</p>
+          <p class="border-custom py-2 px-sm-3 px-2 rounded-3 hov btn-hover">Mens</p>
+          <p class="border-custom py-2 px-sm-3 px-2 rounded-3 hov btn-hover">Womens</p>
+          <p class="border-custom py-2 px-sm-3 px-2 rounded-3 hov btn-hover">Kids</p>
+        </div>!-->
+      </div>
+      <img src="images/Abstract Design.png" alt="rays" class="img-fluid d-none d-sm-block">
+    </div>
+
+    <div class="tab-content text-white" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+        <div class="container text-center px-xl-0">
+
+          <div class="row text-white">
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-1.png" alt="wom-wear" class="img-fluid im">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2 py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0 fs-6">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Timeless A-line Evening Dress</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Ankle-length</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$109.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-2.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2  py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Floral Bloom Maxi Dress</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Slim Fit</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$54.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-3.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <a href="index-3.html">
+                  <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2 py-3 px-3 py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                    <p class="mar-0">Shop Now</p>
+                    <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                  </button>
+                </a>
+              </div>
+              <p class="r-mono fs-5">Elegant Evening Gown</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Flowing skirt</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$89.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex border-custom justify-content-center gap-2 align-items-center py-4 px-3 d-block rounded-bottom-3 d-sm-none">
+              <p class="fs-6 mar-0 gr-70 r-mono">View All</p>
+              <img src="images/arrow-down.png" alt="arrow down" class="img-fluid">
+            </div>
+
+          </div>
+
+          <div class="row text-white d-none d-sm-flex">
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-4.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2  py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Urban Chic Handbag</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Spacious</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$49.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-5.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2  py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Sophisticate Sun Hat</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">One size fits all</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$24.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-6.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2  py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Boho Chic Printed Scarf</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Lightweight</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$19.99</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+        <div class="container text-center px-xl-0">
+
+          <div class="row text-white">
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-2.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2  py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Floral Bloom Maxi Dress</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Slim Fit</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$54.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-1.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2 py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0 fs-6">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Timeless A-line Evening Dress</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Ankle-length</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$109.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-3.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2 py-3 px-3 py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Elegant Evening Gown</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Flowing skirt</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$89.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex border-custom justify-content-center gap-2 align-items-center py-4 px-3 d-block rounded-bottom-3 d-sm-none">
+              <p class="fs-6 mar-0 gr-70 r-mono">View All</p>
+              <img src="images/arrow-down.png" alt="arrow down" class="img-fluid">
+            </div>
+
+          </div>
+
+          <div class="row text-white d-none d-sm-flex">
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-5.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2  py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Sophisticate Sun Hat</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">One size fits all</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$24.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-6.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2  py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Boho Chic Printed Scarf</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Lightweight</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$19.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-4.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2  py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Urban Chic Handbag</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Spacious</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$49.99</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+        <div class="container text-center px-xl-0">
+
+          <div class="row text-white">
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-1.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2 py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0 fs-6">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Timeless A-line Evening Dress</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Ankle-length</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$109.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-2.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2  py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Floral Bloom Maxi Dress</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Slim Fit</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$54.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-3.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2 py-3 px-3 py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Elegant Evening Gown</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Flowing skirt</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$89.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex border-custom justify-content-center gap-2 align-items-center py-4 px-3 d-block rounded-bottom-3 d-sm-none">
+              <p class="fs-6 mar-0 gr-70 r-mono">View All</p>
+              <img src="images/arrow-down.png" alt="arrow down" class="img-fluid">
+            </div>
+
+          </div>
+
+          <div class="row text-white d-none d-sm-flex">
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-4.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2  py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Urban Chic Handbag</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Spacious</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$49.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-5.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2  py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Sophisticate Sun Hat</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">One size fits all</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$24.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-6.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2  py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Boho Chic Printed Scarf</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Lightweight</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$19.99</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+        <div class="container text-center px-xl-0">
+
+          <div class="row text-white">
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-4.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2  py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Urban Chic Handbag</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Spacious</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$49.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-5.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2  py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Sophisticate Sun Hat</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">One size fits all</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$24.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-6.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2  py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Boho Chic Printed Scarf</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Lightweight</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$19.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex border-custom justify-content-center gap-2 align-items-center py-4 px-3 d-block rounded-bottom-3 d-sm-none">
+              <p class="fs-6 mar-0 gr-70 r-mono">View All</p>
+              <img src="images/arrow-down.png" alt="arrow down" class="img-fluid">
+            </div>
+            
+
+          </div>
+          
+          <div class="row text-white d-none d-sm-flex">
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-1.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2 py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0 fs-6">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Timeless A-line Evening Dress</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Ankle-length</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$109.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-2.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2  py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Floral Bloom Maxi Dress</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Slim Fit</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$54.99</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-3 px-3">
+              <img src="images/wear-3.png" alt="wom-wear" class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <p class="mar-0 gr-70 fs-6 border-custom-grey rounded-pill py-2 px-2">Womenswear</p>
+                <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2 py-3 px-3 py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3">
+                  <p class="mar-0">Shop Now</p>
+                  <img src="images/arrow.png" alt="arrow" class="img-fluid">
+                </button>
+              </div>
+              <p class="r-mono fs-5">Elegant Evening Gown</p>
+              <div class="d-flex justify-content-start gap-2 gap-xl-3 r-mono fs-6">
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Fit</p>
+                  <p class="gr-80 fs-6 mar-0">Flowing skirt</p>
+                </div>
+                <div class="d-flex justify-content-start gap-2">
+                  <p class="gr-50 fs-6 mar-0">Price</p>
+                  <p class="gr-80 fs-6 mar-0">$89.99</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between border-custom mt-5 rounded-top-3 align-items-center">
+      <div class="py-4 py-lg-0 px-3 px-md-4 px-lg-5">
+        <p class="text-white fs-2">THE STYLELOOM TESTIMONIAL COLLECTION.</p>
+        <p class="mar-0 gr-50 fs-6">At StyleLoom, our customers are the heartbeat of our brand.</p>
+      </div>
+      <img src="images/Abstract Design2.png" alt="rays" class="img-fluid d-none d-sm-block">
+    </div>
+
+    <div class="container text-center px-xl-0 d-none d-sm-block">
+      <div class="row text-white">
+        
+        <div class="col-sm d-flex flex-column text-start border-custom">
+
+          <div class="d-flex flex-column gap-4 py-5 py-md-4 py-lg-5 px-3 px-xl-4">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex justify-content-start align-items-center gap-3">
+                <img src="images/client-1.png" alt="person" class="img-fluid">
+                <div class="d-flex flex-column gap-1">
+                  <p class="fs-5 mar-0">Sarah Thompson</p>
+                  <p class="mar-0 fs-6 gr-40 r-mono">New York, USA</p>
+                </div>
+              </div>
+              <img src="images/twi.png" alt="twitter" class="img-fluid d-block d-md-none d-xl-block">
+            </div>
+            <img src="images/stars.png" alt="stars" class="img-fluid">
+            <p class="fs-6 mar-0 gr-50">StyleLoom exceeded my expectations. The gown's quality and design made me feel like a queen. Fast shipping, too!</p>
+          </div>
+
+        </div>
+
+        <div class="col-sm d-flex flex-column text-start border-custom">
+
+          <div class="d-flex flex-column gap-4 py-5 py-md-4 py-lg-5 px-3 px-xl-4">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex justify-content-start align-items-center gap-3">
+                <img src="images/client-2.png" alt="person" class="img-fluid">
+                <div class="d-flex flex-column gap-1">
+                  <p class="fs-5 mar-0">Rajesh Patel</p>
+                  <p class="mar-0 fs-6 gr-40 r-mono">Mumbai, India</p>
+                </div>
+              </div>
+              <img src="images/twi.png" alt="twitter" class="img-fluid d-block d-md-none d-xl-block">
+            </div>
+            <img src="images/stars.png" alt="stars" class="img-fluid">
+            <p class="fs-6 mar-0 gr-50">Absolutely love the style and warmth of the jacket. A perfect blend of fashion and functionality!</p>
+          </div>
+
+        </div>
+
+        <div class="col-sm d-flex flex-column text-start border-custom">
+
+          <div class="d-flex flex-column gap-4 py-5 py-md-4 py-lg-5 px-3 px-xl-4">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex justify-content-start align-items-center gap-3">
+                <img src="images/client-3.png" alt="person" class="img-fluid">
+                <div class="d-flex flex-column gap-1">
+                  <p class="fs-5 mar-0">Emily Walker</p>
+                  <p class="mar-0 fs-6 gr-40 r-mono">London, UK</p>
+                </div>
+              </div>
+              <img src="images/twi.png" alt="twitter" class="img-fluid d-block d-md-none d-xl-block">
+            </div>
+            <img src="images/stars.png" alt="stars" class="img-fluid">
+            <p class="fs-6 mar-0 gr-50">Adorable and comfortable! My daughter loves her new outfit. Thank you, StyleLoom, for dressing our little fashionista.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row text-white">
+        
+        <div class="col-sm d-flex flex-column text-start border-custom">
+
+          <div class="d-flex flex-column gap-4 py-5 py-md-4 py-lg-5 px-3 px-xl-4">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex justify-content-start align-items-center gap-3">
+                <img src="images/client-4.png" alt="person" class="img-fluid">
+                <div class="d-flex flex-column gap-1">
+                  <p class="fs-5 mar-0">Alejandro Martinez</p>
+                  <p class="mar-0 fs-6 gr-40 r-mono">Barcelona, Spain</p>
+                </div>
+              </div>
+              <img src="images/twi.png" alt="twitter" class="img-fluid d-block d-md-none d-xl-block">
+            </div>
+            <img src="images/stars.png" alt="stars" class="img-fluid">
+            <p class="fs-6 mar-0 gr-50">Impressed by the quality and style. These shoes turned heads at every event. StyleLoom, you've gained a loyal customer!</p>
+          </div>
+
+        </div>
+
+        <div class="col-sm d-flex flex-column text-start border-custom">
+
+          <div class="d-flex flex-column gap-4 py-5 py-md-4 py-lg-5 px-3 px-xl-4">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex justify-content-start align-items-center gap-3">
+                <img src="images/client-5.png" alt="person" class="img-fluid">
+                <div class="d-flex flex-column gap-1">
+                  <p class="fs-5 mar-0">Priya Sharma</p>
+                  <p class="mar-0 fs-6 gr-40 r-mono">Delhi, India</p>
+                </div>
+              </div>
+              <img src="images/twi.png" alt="twitter" class="img-fluid d-block d-md-none d-xl-block">
+            </div>
+            <img src="images/stars.png" alt="stars" class="img-fluid">
+            <p class="fs-6 mar-0 gr-50">Perfect fit and exceptional quality. These jeans have become my go-to for casual and chic outings.</p>
+          </div>
+
+        </div>
+
+        <div class="col-sm d-flex flex-column text-start border-custom">
+
+          <div class="d-flex flex-column gap-4 py-5 py-md-4 py-lg-5 px-3 px-xl-4">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex justify-content-start align-items-center gap-3">
+                <img src="images/client-6.png" alt="person" class="img-fluid">
+                <div class="d-flex flex-column gap-1">
+                  <p class="fs-5 mar-0">Maria Rodriguez</p>
+                  <p class="mar-0 fs-6 gr-40 r-mono">Mexico City, Mexico</p>
+                </div>
+              </div>
+              <img src="images/twi.png" alt="twitter" class="img-fluid d-block d-md-none d-xl-block">
+            </div>
+            <img src="images/stars.png" alt="stars" class="img-fluid">
+            <p class="fs-6 mar-0 gr-50">Stylish sneakers that don't compromise on comfort. StyleLoom knows how to balance fashion and functionality.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+
+    <div id="carouselExample1" class="carousel slide d-block d-sm-none">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-flex flex-column text-start border-custom text-white rounded-bottom-3">
+
+            <div class="d-flex flex-column gap-4 py-5 py-md-4 py-lg-5 px-3 px-xl-4">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-start align-items-center gap-3">
+                  <img src="images/client-1.png" alt="person" class="img-fluid">
+                  <div class="d-flex flex-column gap-1">
+                    <p class="fs-5 mar-0">Sarah Thompson</p>
+                    <p class="mar-0 fs-6 gr-40 r-mono">New York, USA</p>
+                  </div>
+                </div>
+                <img src="images/twi.png" alt="twitter" class="img-fluid d-block d-md-none d-xl-block">
+              </div>
+              <img src="images/stars.png" alt="stars" class="img-fluid">
+              <p class="fs-6 mar-0 gr-50">StyleLoom exceeded my expectations. The gown's quality and design made me feel like a queen. Fast shipping, too!</p>
+            </div>
+  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex flex-column text-start border-custom text-white rounded-bottom-3">
+
+            <div class="d-flex flex-column gap-4 py-5 py-md-4 py-lg-5 px-3 px-xl-4">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-start align-items-center gap-3">
+                  <img src="images/client-2.png" alt="person" class="img-fluid">
+                  <div class="d-flex flex-column gap-1">
+                    <p class="fs-5 mar-0">Rajesh Patel</p>
+                    <p class="mar-0 fs-6 gr-40 r-mono">Mumbai, India</p>
+                  </div>
+                </div>
+                <img src="images/twi.png" alt="twitter" class="img-fluid d-block d-md-none d-xl-block">
+              </div>
+              <img src="images/stars.png" alt="stars" class="img-fluid">
+              <p class="fs-6 mar-0 gr-50">Absolutely love the style and warmth of the jacket. A perfect blend of fashion and functionality!</p>
+            </div>
+  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex flex-column text-start border-custom text-white rounded-bottom-3">
+
+            <div class="d-flex flex-column gap-4 py-5 py-md-4 py-lg-5 px-3 px-xl-4">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-start align-items-center gap-3">
+                  <img src="images/client-3.png" alt="person" class="img-fluid">
+                  <div class="d-flex flex-column gap-1">
+                    <p class="fs-5 mar-0">Emily Walker</p>
+                    <p class="mar-0 fs-6 gr-40 r-mono">London, UK</p>
+                  </div>
+                </div>
+                <img src="images/twi.png" alt="twitter" class="img-fluid d-block d-md-none d-xl-block">
+              </div>
+              <img src="images/stars.png" alt="stars" class="img-fluid">
+              <p class="fs-6 mar-0 gr-50">Adorable and comfortable! My daughter loves her new outfit. Thank you, StyleLoom, for dressing our little fashionista.</p>
+            </div>
+  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex flex-column text-start border-custom text-white rounded-bottom-3">
+
+            <div class="d-flex flex-column gap-4 py-5 py-md-4 py-lg-5 px-3 px-xl-4">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-start align-items-center gap-3">
+                  <img src="images/client-4.png" alt="person" class="img-fluid">
+                  <div class="d-flex flex-column gap-1">
+                    <p class="fs-5 mar-0">Alejandro Martinez</p>
+                    <p class="mar-0 fs-6 gr-40 r-mono">Barcelona, Spain</p>
+                  </div>
+                </div>
+                <img src="images/twi.png" alt="twitter" class="img-fluid d-block d-md-none d-xl-block">
+              </div>
+              <img src="images/stars.png" alt="stars" class="img-fluid">
+              <p class="fs-6 mar-0 gr-50">Impressed by the quality and style. These shoes turned heads at every event. StyleLoom, you've gained a loyal customer!</p>
+            </div>
+  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex flex-column text-start border-custom text-white rounded-bottom-3">
+
+            <div class="d-flex flex-column gap-4 py-5 py-md-4 py-lg-5 px-3 px-xl-4">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-start align-items-center gap-3">
+                  <img src="images/client-5.png" alt="person" class="img-fluid">
+                  <div class="d-flex flex-column gap-1">
+                    <p class="fs-5 mar-0">Priya Sharma</p>
+                    <p class="mar-0 fs-6 gr-40 r-mono">Delhi, India</p>
+                  </div>
+                </div>
+                <img src="images/twi.png" alt="twitter" class="img-fluid d-block d-md-none d-xl-block">
+              </div>
+              <img src="images/stars.png" alt="stars" class="img-fluid">
+              <p class="fs-6 mar-0 gr-50">Perfect fit and exceptional quality. These jeans have become my go-to for casual and chic outings.</p>
+            </div>
+  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex flex-column text-start border-custom text-white rounded-bottom-3">
+
+            <div class="d-flex flex-column gap-4 py-5 py-md-4 py-lg-5 px-3 px-xl-4">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-start align-items-center gap-3">
+                  <img src="images/client-6.png" alt="person" class="img-fluid">
+                  <div class="d-flex flex-column gap-1">
+                    <p class="fs-5 mar-0">Maria Rodriguez</p>
+                    <p class="mar-0 fs-6 gr-40 r-mono">Mexico City, Mexico</p>
+                  </div>
+                </div>
+                <img src="images/twi.png" alt="twitter" class="img-fluid d-block d-md-none d-xl-block">
+              </div>
+              <img src="images/stars.png" alt="stars" class="img-fluid">
+              <p class="fs-6 mar-0 gr-50">Stylish sneakers that don't compromise on comfort. StyleLoom knows how to balance fashion and functionality.</p>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mt-4">
+        <button class="carousel-control-prev pe-4" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next ps-4" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+
+    <div class="d-flex justify-content-between border-custom mt-5 rounded-top-3 align-items-center">
+      <div class="py-4 py-lg-0 px-3 px-md-4 px-lg-5">
+        <p class="text-white fs-2">HAVE QUESTIONS? WE HAVE ANSWERS.</p>
+        <p class="gr-50 fs-6">Ease into the world of StyleLoom with clarity. Our FAQs cover a spectrum of topics.</p>
+        <div class="d-flex justify-content-start gap-1 gap-md-1 gap-lg-3 r-mono">
+          <ul class="nav gap-1 gap-md-1 gap-lg-3 mb-3 gr-70" id="pills-tab1" role="tablist">
+            <li class="nav-item border-custom-s py-2 px-sm-3 px-2 rounded-3 btn-hover fs-6" role="presentation">
+              <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">All</button>
+            </li>
+            <li class="nav-item border-custom-s py-2 px-sm-3 px-2 rounded-3 btn-hover fs-6" role="presentation">
+              <button class="nav-link" id="pills-order-tab" data-bs-toggle="pill" data-bs-target="#pills-order" type="button" role="tab" aria-controls="pills-order" aria-selected="false">Ordering</button>
+            </li>
+            <li class="nav-item border-custom-s py-2 px-sm-3 px-2 rounded-3 btn-hover fs-6" role="presentation">
+              <button class="nav-link" id="pills-shipp-tab" data-bs-toggle="pill" data-bs-target="#pills-shipp" type="button" role="tab" aria-controls="pills-shipp" aria-selected="false">Shipping</button>
+            </li>
+            <li class="nav-item border-custom-s py-2 px-sm-3 px-2 rounded-3 btn-hover fs-6" role="presentation">
+              <button class="nav-link" id="pills-return-tab" data-bs-toggle="pill" data-bs-target="#pills-return" type="button" role="tab" aria-controls="pills-return" aria-selected="false">Returns</button>
+            </li>
+            <li class="nav-item border-custom-s py-2 px-sm-3 px-2 rounded-3 btn-hover fs-6" role="presentation">
+              <button class="nav-link" id="pills-support-tab" data-bs-toggle="pill" data-bs-target="#pills-support" type="button" role="tab" aria-controls="pills-support" aria-selected="false">Support</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <img src="images/Abstract Design3.png" alt="rays" class="img-fluid d-none d-sm-block">
+    </div>
+
+    <div class="tab-content text-white" id="pills-tab1Content">
+      <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab" tabindex="0">
+        <div class="container text-center px-xl-0">
+
+          <div class="row text-white">
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-4 py-lg-5 px-4 px-lg-5">
+              <p class="fs-5">How can I place an order on StyleLoom?</p>
+              <p class="fs-6 mar-0 gr-50">Ordering is easy! Simply browse our website, add items to your cart, and proceed to checkout. Follow the prompts to enter your details and complete your purchase.</p>
+            </div>
+            <div class="col-sm d-flex flex-column text-start border-custom py-4 py-lg-5 px-4 px-lg-5">
+              <p class="fs-5">Can I modify or cancel my order after placing it?</p>
+              <p class="fs-6 mar-0 gr-50">Unfortunately, once an order is confirmed, modifications or cancellations may not be possible. Please review your order carefully before completing the purchase.</p>
+            </div>
+
+          </div>
+
+          <div class="row text-white">
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-4 py-lg-5 px-4 px-lg-5">
+              <p class="fs-5">What payment methods do you accept?</p>
+              <p class="fs-6 mar-0 gr-50">We accept a variety of payment methods, including credit/debit cards, net banking, and select digital wallets. Choose the option that suits you best during checkout.</p>
+            </div>
+
+            <div class="col-sm d-flex border-custom justify-content-center align-items-center gap-2 py-4 px-3 d-block rounded-bottom-3 d-sm-none">
+              <p class="fs-6 mar-0 gr-70 r-mono">View All</p>
+              <img src="images/arrow-down.png" alt="arrow down" class="img-fluid">
+            </div>
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-4 py-lg-5 px-4 px-lg-5 d-none d-sm-flex">
+              <p class="fs-5">How do I initiate a return?</p>
+              <p class="fs-6 mar-0 gr-50">Visit our Returns page and follow the provided instructions. Ensure your item meets our return criteria, and our team will guide you through the process.</p>
+            </div>
+
+          </div>
+
+          <div class="row text-white d-none d-sm-flex">
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-4 py-lg-5 px-4 px-lg-5">
+              <p class="fs-5">How can I track my order?</p>
+              <p class="fs-6 mar-0 gr-50">Once your order is dispatched, you'll receive a tracking number via email. Use this number to track your package in real-time on our website.</p>
+            </div>
+            <div class="col-sm d-flex flex-column text-start border-custom py-4 py-lg-5 px-4 px-lg-5">
+              <p class="fs-5">Do you offer exchanges for products?</p>
+              <p class="fs-6 mar-0 gr-50">At this time, we don't offer direct product exchanges. If you'd like a different item, please initiate a return and place a new order.</p>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-order" role="tabpanel" aria-labelledby="pills-order-tab" tabindex="0">
+        <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab" tabindex="0">
+          <div class="container text-center px-xl-0">
+  
+            <div class="row text-white">
+  
+              <div class="col-sm d-flex flex-column text-start border-custom py-4 py-lg-5 px-4 px-lg-5">
+                <p class="fs-5">How can I place an order on StyleLoom?</p>
+                <p class="fs-6 mar-0 gr-50">Ordering is easy! Simply browse our website, add items to your cart, and proceed to checkout. Follow the prompts to enter your details and complete your purchase.</p>
+              </div>
+              <div class="col-sm d-flex flex-column text-start border-custom py-4 py-lg-5 px-4 px-lg-5">
+                <p class="fs-5">Can I modify or cancel my order after placing it?</p>
+                <p class="fs-6 mar-0 gr-50">Unfortunately, once an order is confirmed, modifications or cancellations may not be possible. Please review your order carefully before completing the purchase.</p>
+              </div>
+  
+            </div>
+
+          </div> 
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="pills-shipp" role="tabpanel" aria-labelledby="pills-shipp-tab" tabindex="0">
+        <div class="container text-center px-xl-0">
+          <div class="row text-white">
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-4 py-lg-5 px-4 px-lg-5">
+              <p class="fs-5">How can I track my order?</p>
+              <p class="fs-6 mar-0 gr-50">Once your order is dispatched, you'll receive a tracking number via email. Use this number to track your package in real-time on our website.</p>
+            </div>
+            <div class="col-sm d-flex flex-column text-start border-custom py-4 py-lg-5 px-4 px-lg-5">
+              <p class="fs-5">Do you offer exchanges for products?</p>
+              <p class="fs-6 mar-0 gr-50">At this time, we don't offer direct product exchanges. If you'd like a different item, please initiate a return and place a new order.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="pills-return" role="tabpanel" aria-labelledby="pills-return-tab" tabindex="0">
+        <div class="container text-center px-xl-0">
+          <div class="row text-white">
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-4 py-lg-5 px-4 px-lg-5">
+              <p class="fs-5">What payment methods do you accept?</p>
+              <p class="fs-6 mar-0 gr-50">We accept a variety of payment methods, including credit/debit cards, net banking, and select digital wallets. Choose the option that suits you best during checkout.</p>
+            </div>
+            <div class="col-sm d-flex flex-column text-start border-custom py-4 py-lg-5 px-4 px-lg-5">
+              <p class="fs-5">How do I initiate a return?</p>
+              <p class="fs-6 mar-0 gr-50">Visit our Returns page and follow the provided instructions. Ensure your item meets our return criteria, and our team will guide you through the process.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="pills-support" role="tabpanel" aria-labelledby="pills-support-tab" tabindex="0">
+        <div class="container text-center px-xl-0">
+          <div class="row text-white">
+
+            <div class="col-sm d-flex flex-column text-start border-custom py-4 py-lg-5 px-4 px-lg-5">
+              <p class="fs-5">How can I contact with you?</p>
+              <p class="fs-6 mar-0 gr-50">All information about our contacts available on the page Contact, you should push the button in the top of the navigation</p>
+            </div>
+            <div class="col-sm d-flex flex-column text-start border-custom py-4 py-lg-5 px-4 px-lg-5">
+              <p class="fs-5">Do you offer exchanges for products?</p>
+              <p class="fs-6 mar-0 gr-50">At this time, we don't offer direct product exchanges. If you'd like a different item, please initiate a return and place a new order.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between align-items-center gap-3 mt-5 rounded-4 py-5 px-4 px-md-5 el-col" style="background-color: #C2B4A3;">
+      
+      <div class="text-start py-0 py-lg-3 px-0 px-lg-3 elevate">
+        <p class="fs-1 fw-semibold">ELEVATE YOUR WARDROBE</p>
+        <p class="fs-6 mar-0">Don't miss out – experience the epitome of fashion by clicking 'Buy Now' and embrace a world of chic elegance delivered to your doorstep. Your style journey begins here.</p>
+      </div>
+      <button type="button" class="btn btn-custom-grey-banner d-flex align-items-center fs-6 justify-content-between gap-2 me-2 me-lg-4 py-3 py-md-2 py-lg-3 px-3 px-md-2 px-lg-3 rounded-3 mt-4">
+        <p class="mar-0 fs-6">Shop Now</p>
+        <img src="images/arrow.png" alt="arrow" class="img-fluid">
+      </button>
+
+    </div>
+
+    <!--<div class="d-flex align-items-center justify-content-between py-5 my-3">
+      <img src="images/Logo big.png" alt="big logo" class="img-fluid">
+      <div class="d-flex align-items-center gap-3 justify-content-end">
+        <img src="images/insta.png" alt="inst" class="img-fluid">
+        <img src="images/globe.png" alt="globe" class="img-fluid">
+        <img src="images/twitter.png" alt="twi" class="img-fluid">
+        <img src="images/behance.png" alt="be" class="img-fluid">
+      </div>
+    </div>!-->
+
+    <div class="d-flex align-items-center justify-content-between py-5 my-5 brdr-btm brdr-top mt-5 big-l gap-5 gap-md-0">
+      <img src="images/Logo big.png" alt="big logo" class="img-fluid">
+      <div class="d-flex align-items-center gap-2 gap-md-3 net">
+        <img src="images/insta2.png" alt="inst" class="img-fluid border-custom-sand py-3 px-3 py-md-2 py-lg-3 px-md-2 px-lg-3 rounded-3">
+        <img src="images/globe2.png" alt="globe" class="img-fluid border-custom-sand py-3 px-3 py-md-2 py-lg-3 px-md-2 px-lg-3 rounded-3">
+        <img src="images/twitter2.png" alt="twi" class="img-fluid border-custom-sand py-3 px-3 py-md-2 py-lg-3 px-md-2 px-lg-3 rounded-3">
+        <img src="images/behance2.png" alt="be" class="img-fluid border-custom-sand py-3 px-3 py-md-2 py-lg-3 px-md-2 px-lg-3 rounded-3">
+      </div>
+    </div>
+
+    <div class="container px-2 px-md-0 px-xl-0 brdr-btm pb-5 mb-5">
+      <div class="row text-white">
+        <div class="col-sm d-flex flex-column text-start justify-content-between">
+          <p class="fs-5 fw-medium">Home</p>
+          <div class="d-flex justify-content-start align-items-center gap-3 gap-md-1 gap-lg-4 r-mono">
+            <p class="fs-6 gr-40">Why Us</p>
+            <p class="fs-6 gr-40">About Us</p>
+            <p class="fs-6 gr-40">Testimonials</p>
+            <p class="fs-6 gr-40">FAQ’s</p>
+          </div>
+        </div>
+        <div class="col-sm d-flex flex-column text-start justify-content-between">
+          <p class="fs-5 fw-medium">Products</p>
+          <div class="d-flex justify-content-start align-items-center gap-3 gap-md-2 gap-lg-4 r-mono">
+            <p class="fs-6 gr-40">Menswear</p>
+            <p class="fs-6 gr-40">Womenswear</p>
+            <p class="fs-6 gr-40">Kidswear</p>
+          </div>
+        </div>
+        <div class="col-sm d-flex flex-column text-start justify-content-between">
+          <p class="fs-5 fw-medium">Subscribe to Newsletter</p>
+          <div class="input-group mb-3 text-white r-mono">
+            <input type="text" class="form-control fs-6" placeholder="Your Email" aria-label="Your Email" aria-describedby="button-addon2">
+            <button class="btn btn-custom-grey" type="button" id="button-addon2">
+              <img src="images/arrow2.png" alt="arr" class="img-fluid">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between align-items-center gr-50 r-mono end-col px-2 px-md-0">
+      <p class="fs-6">© 2024 StyleLoom. All rights reserved.</p>
+      <div class="d-flex align-items-center gap-2 justify-content-end">
+        <p class="fs-6">Terms & Conditions</p>
+        <p class="fs-6">Privacy Policy</p>
+      </div>
+    </div>
+
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+    <script>
+        (() => {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.from(forms).forEach(form => {
+            form.addEventListener('submit', event => {
+            if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+            }
+
+            form.classList.add('was-validated')
+            }, false)
+        })
+        })()
+    </script>
+
+</body>
+</html>
